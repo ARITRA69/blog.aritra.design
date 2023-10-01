@@ -31,6 +31,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## NB
 
 I'm updating the site regularly so feel free to come back and check updates.
+Check github [https://github.com/ARITRA69/blog.aritra.design](https://github.com/ARITRA69/blog.aritra.design) for upates.
 
 If you have any suggestion or feedback
 contact me at aritrasarkar2002@gmail.com
