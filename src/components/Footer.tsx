@@ -13,7 +13,10 @@ const Footer = (props: Props) => {
         </h1>
         <ul className="flex gap-4">
           <li className="hover:text-[#ee552d]">
-            <Link href="https://www.instagram.com/" target="_blank">
+            <Link
+              href="https://www.instagram.com/just_another_boring_artist/"
+              target="_blank"
+            >
               <Instagram />
             </Link>
           </li>
