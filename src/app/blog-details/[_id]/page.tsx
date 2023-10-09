@@ -13,7 +13,6 @@ import moment from "moment";
 const BlogDetails = () => {
   const path: any = useParams();
   const router: any = useRouter();
-  console.log("bruh------", path._id);
 
   const [blog, setBlog] = useState<Blog>();
   const [loading, setLoading] = useState<Boolean>(true);
@@ -26,7 +25,6 @@ const BlogDetails = () => {
       try {
         const singleBLogRef: any = doc(blogsCollectionRef, path._id);
         const dataSnap: any = await getDoc(singleBLogRef);
-        console.log("nigaa------>", dataSnap);
         if (dataSnap.exists()) {
           setBlog(dataSnap.data());
           setLoading(false);

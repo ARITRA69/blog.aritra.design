@@ -73,7 +73,7 @@ export default function Home() {
       </div>
       <>
         {!loading ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 sm:mt-16 w-full justify-items-center gap-y-10 gap-x-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 sm:mt-16 w-full justify-items-center sm:justify-around gap-y-10 gap-x-10">
             {blogs.map((data) => (
               <Card
                 className="border-none w-[309px] md:w-[330px] md:h-[262px] my-9 shadow-none"
